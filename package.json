@@ -1,0 +1,35 @@
+{
+  "name": "dangsaju-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for 당사주(唐四柱) — 생년월일시로 12성(星) 사주(초년·청년·장년·말년)를 결정론적 구조화 데이터로 반환한다. 해석·조언 생성은 하지 않는다.",
+  "license": "MIT",
+  "author": "molpass",
+  "type": "module",
+  "bin": {
+    "dangsaju-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "data"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "korean-lunar-calendar": "^0.4.0",
+    "zod": "^3.25.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hermes-agent",
+    "claude",
+    "korean",
+    "fortune-telling",
+    "dangsaju",
+    "tang-sa-ju",
+    "lunar-calendar"
+  ]
+}

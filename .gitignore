@@ -1,0 +1,4 @@
+node_modules/
+
+# 스크래치·검증 임시 파일
+scratch-*.mjs
